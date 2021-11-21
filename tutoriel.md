@@ -429,11 +429,16 @@ Astuce : combinez les commandes `git log` et `tail`.
 
 ### Combien de *commits* ont été enregistrés jusqu'à présent ?
 
-Astuce : combinez les commandes `git log`, `grep -c` et un mot-clé pertinent. Vérifiez cette valeur sur le site du dépôt : <https://github.com/pierrepo/autoclasswrapper>
+Astuce : combinez les commandes `git log`, `grep -c` et un mot-clé pertinent.
 
-### Trouvez dans quel *commit* j'ai ajouté la possibilité de construire un [dendrogramme](https://en.wikipedia.org/wiki/Dendrogram) ? 
+Vérifiez cette valeur sur le site du dépôt : <https://github.com/pierrepo/autoclasswrapper>
 
-Astuce : combinez les commandes `git log`, `grep -B4` et un mot-clé pertinent.
+### Trouvez dans quel *commit* j'ai ajouté la possibilité de construire un dendrogramme
+
+Astuces : 
+
+- Combinez les commandes `git log`, `grep -B4` et un mot-clé pertinent.
+- Jetez un oeil à la page [dendrogramme](https://en.wikipedia.org/wiki/Dendrogram) sur Wikipédia.
 
 
 ### Combien de fichiers ont été modifiés dans le *commit* correspondant ?
