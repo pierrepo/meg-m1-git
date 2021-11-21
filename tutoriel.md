@@ -106,6 +106,13 @@ Pour tester si l'enregistrement de votre clé publique dans GitHub a bien foncti
 ```bash
 $ ssh -T git@github.com
 ```
+
+Si vous obtenez le message :
+```
+The authenticity of host 'github.com (140.82.121.4)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no)?
+```
 Validez en tapant `yes` puis en appuyant sur <kbd>Entrée</kbd>.
 
 Si votre clé privée a bien été enregistrée dans GitHub, vous devriez obtenir le message :
