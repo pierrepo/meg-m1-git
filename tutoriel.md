@@ -296,7 +296,7 @@ Retournez sur GitHub pour observer ce nouveau *commit* :
 ![](img/github_second_commit.png)
 
 
-Depuis le terminal Bash Ubuntu, affichez l'historique avec la commande `git log` :
+Depuis le terminal sur adenine, affichez l'historique avec la commande `git log` :
 ```bash
 $ git log
 commit 5adb360b9682320e4fe32382d79d9b9454d657b3 (HEAD -> master, origin/master)
@@ -323,6 +323,9 @@ Vous constatez que git mémorise :
 Git mémorise aussi quels fichiers ont été modifiés. Nous verrons plus tard comment les retrouver.
 
 De plus, git attribue un identifiant à chaque *commit* (ici : `404b6ff031bd9ba0daa586c7a524eb8ef409ec1c`). Cet identifiant est unique et permet de retrouver un *commit* particulier.
+
+
+## 2.5 Modification d'un fichier depuis GitHub
 
 Depuis l'interface de GitHub, cliquez sur le bouton vert « *Add a README* »
 
@@ -382,7 +385,7 @@ J'ai développé il y a quelques années [autoclasswrapper](https://github.com/p
 
 Vous allez télécharger l'intégralité du dépôt git de ce projet, explorer son historique et observer comment j'ai développé ce projet. Vous aurez la possibilité de modifier localement (sur adenine) ce projet mais vous ne pourrez pas envoyer vos modifications sur le dépôt initial (avec la commande `git push`) car vous n'en avez pas les droits.
 
-Depuis votre terminal sur adenine, déplacez-vous dans le répertoire `meg_m1_gb_r` :
+Depuis votre terminal sur adenine, déplacez-vous dans le répertoire de base de votre environnement `meg_m1_gb_r` :
 ```bash
 $ cd $HOME/meg_m1_gb_r
 ```
@@ -405,6 +408,8 @@ puis déplacez-vous dans le répertoire du projet :
 $ cd autoclasswrapper
 ```
 
+Utilisez maintenant différentes commandes git pour explorer le projet 
+et répondre aux questions suivantes.
 ### De quand date le dernier *commit* ?
 
 Astuce : combinez les commandes `git log` et `head`.
@@ -445,7 +450,7 @@ Pressez la touche <kbd>q</kbd> pour quitter.
 
 # Partie 4 : Branches
 
-## 4.1 Les branches
+## 4.1 Création de branche
 
 Revisionez la vidéo « [Débuter avec Git et Github en 30 min](https://youtu.be/hPfgekYUKgk?t=634) » à partir de 10'34 sur les branches.
 
@@ -507,6 +512,8 @@ $ git add test2.txt
 $ git commit -m "Ajout d'une ligne"
 ```
 
+## 4.1 Fusion
+
 Revenez sur la branche *master* et vérifiez que le fichier `test2.txt` n'est **pas** présent :
 
 ```bash
@@ -549,7 +556,7 @@ $ git push
 Vérifiez que le dépôt sur GitHub a bien été mis à jour.
 
 
-## 6 Collaboration avec GitHub
+# Partie 6 : Collaboration avec GitHub
 
 Revisionez la vidéo « [Débuter avec Git et Github en 30 min](https://youtu.be/hPfgekYUKgk?t=1058) » à partir de 17'38 sur le dépôt distant et GitHub.
 
