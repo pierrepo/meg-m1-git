@@ -512,7 +512,7 @@ $ git add test2.txt
 $ git commit -m "Ajout d'une ligne"
 ```
 
-## 4.1 Fusion
+## 4.2 Fusion
 
 Revenez sur la branche *master* et vérifiez que le fichier `test2.txt` n'est **pas** présent :
 
