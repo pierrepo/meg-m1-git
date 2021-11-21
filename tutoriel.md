@@ -10,7 +10,7 @@ license: Creative Commons Attribution-ShareAlike (CC BY-SA 4.0)
 
 Depuis l'été 2021, GitHub interdit l'authentification par login / mot-de-passe et préconise l'utilisation de clés privée et publique.
 
-### 1.1 Préparation
+## 1.1 Préparation
 
 Sur adenine, lancez l'environnement `meg_m1_gb_r` que vous avez utilisé lors de la première séance.
 
@@ -27,7 +27,7 @@ $ rm -rf .git
 - Ne tapez pas le `$` en début de ligne et faites attention aux majuscules et aux minuscules.
 - Copiez / collez les commandes pour aller plus vite et faire moins d'erreur.
 
-### 1.2 Création des clés
+## 1.2 Création des clés
 
 Toujours depuis le terminal, entrez la commande suivante :
 
@@ -84,7 +84,7 @@ TRTPvbaUnz17wffw== connexion github adenine
 Copiez cette clé, depuis `ssh-rsa` jusqu'à `connexion github adenine` inclus.
 
 
-### 1.3 Ajout de la clé publique dans GitHub
+## 1.3 Ajout de la clé publique dans GitHub
 
 Ouvrez maintenant l'interface de gestion des clés de GitHub : <https://github.com/settings/keys>
 
@@ -99,7 +99,7 @@ Collez votre clé dans le champ *Key* (tout depuis `ssh-rsa` jusqu'à `connexion
 Enfin, cliquez sur le bouton vert « *Add SSH key* ». Pour confirmer l'ajout de cette clé, GitHub vous demandera votre mot de passe utilisateur.
 
 
-### 1.4 Test de la connexion à GitHub
+## 1.4 Test de la connexion à GitHub
 
 Pour tester si l'enregistrement de votre clé publique dans GitHub a bien fonctionné, tapez la commande suivante dans le terminal :
 
@@ -457,7 +457,7 @@ Pressez la touche <kbd>q</kbd> pour quitter.
 
 # Partie 4 : Branches
 
-### 4.1 Création de branche
+## 4.1 Création de branche
 
 Revisionez la vidéo « [Débuter avec Git et Github en 30 min](https://youtu.be/hPfgekYUKgk?t=634) » à partir de 10'34 sur les branches.
 
@@ -519,7 +519,7 @@ $ git add test2.txt
 $ git commit -m "Ajout d'une ligne"
 ```
 
-### 4.2 Fusion
+## 4.2 Fusion
 
 Revenez sur la branche *master* et vérifiez que le fichier `test2.txt` n'est **pas** présent :
 
