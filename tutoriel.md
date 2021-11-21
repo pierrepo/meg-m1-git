@@ -450,7 +450,7 @@ Pressez la touche <kbd>q</kbd> pour quitter.
 
 # Partie 4 : Branches
 
-## 4.1 Création de branche
+### 4.1 Création de branche
 
 Revisionez la vidéo « [Débuter avec Git et Github en 30 min](https://youtu.be/hPfgekYUKgk?t=634) » à partir de 10'34 sur les branches.
 
@@ -512,7 +512,7 @@ $ git add test2.txt
 $ git commit -m "Ajout d'une ligne"
 ```
 
-## 4.2 Fusion
+### 4.2 Fusion
 
 Revenez sur la branche *master* et vérifiez que le fichier `test2.txt` n'est **pas** présent :
 
