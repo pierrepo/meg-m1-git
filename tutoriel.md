@@ -129,6 +129,7 @@ Dans cette partie, vous allez faire des aller-retours entre
 
 - GitHub, qu'on appelle le dépôt distant,
 - et adenine qu'on appelle le dépôt local.
+
 ## 2.1 Création d'un nouveau dépôt sur GitHub
 
 Dans l'interface de GitHub, tout en haut à droite, cliquez sur le symbole `+` puis sur « *New repository* » :
