@@ -218,7 +218,7 @@ Le fichier `test1.txt` existe bien mais il n'est pas encore pris en charge par g
 $ git add test1.txt
 ```
 
-Un nouveau `git status` renvoie :
+Un nouveau `git status` renvoie alors :
 ```
 $ git status
 Sur la branche master
