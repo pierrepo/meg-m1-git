@@ -98,6 +98,7 @@ Collez votre clé dans le champ *Key* (tout depuis `ssh-rsa` jusqu'à `connexion
 
 Enfin, cliquez sur le bouton vert « *Add SSH key* ». Pour confirmer l'ajout de cette clé, GitHub vous demandera votre mot de passe utilisateur.
 
+L'ajout d'une clé publique dans votre profile est un moyen de vous authentifier sur GitHub. Cette opération est considérée comme sensible d'un point de vue de la sécurité. Vous recevrez donc également un e-mail de GitHub pour vous informer de l'ajout de cette nouvelle clé. 
 
 ## 1.4 Test de la connexion à GitHub
 
