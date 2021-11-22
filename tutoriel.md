@@ -24,8 +24,8 @@ $ rm -rf .git
 
 🔔 Rappels :
 
-- Ne tapez pas le `$` en début de ligne et faites attention aux majuscules et aux minuscules.
-- Copiez / collez les commandes pour aller plus vite et faire moins d'erreur.
+- Ne tapez pas le caractère `$` en début de ligne et faites attention aux majuscules et aux minuscules.
+- Copiez / collez les commandes pour aller plus vite et faire moins d'erreur. Ne copiez / collez pas non plus n'importe quoi, lisez les consignes avec attention avec d'exécuter une commande.
 
 ## 1.2 Création des clés
 
