@@ -125,6 +125,10 @@ Avec `<login>` l'identifiant de votre compte sur GitHub. 🎉
 
 # Partie 2 : Premier dépôt
 
+Dans cette partie, vous allez faire des aller-retours entre 
+
+- GitHub, qu'on appelle le dépôt distant,
+- et adenine qu'on appelle le dépôt local.
 ## 2.1 Création d'un nouveau dépôt sur GitHub
 
 Dans l'interface de GitHub, tout en haut à droite, cliquez sur le symbole `+` puis sur « *New repository* » :
@@ -144,7 +148,7 @@ Enfin, cliquez sur le bouton gris « *SSH* » et copiez l'adresse de connexion d
 ![](img/github_create_repo3.png)
 
 
-## 2.2 Connexion du dépôt distant (sur GitHub) à votre machine locale
+## 2.2 Connexion du dépôt distant à votre machine locale
 
 Dans le terminal sur adenine, exécutez la commande suivante pour cloner votre dépôt distant (qui est sur GitHub) sur votre machine locale :
 
