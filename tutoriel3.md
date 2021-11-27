@@ -148,7 +148,7 @@ GitHub est très utile pour du travail collaboratif car il va servir de platefor
 
 ## 6.1 Création d'un dépôt commun
 
-*Les manipulations indiquées dans cette rubrique ne sont à réaliser que par **UN SEUL** membre de l'équipe mais avec l'assitance et de l'aide de tous les membres de l'équipe.*
+*Les manipulations indiquées dans cette rubrique ne sont à réaliser que par **UN SEUL** membre de l'équipe mais avec l'assitance et l'aide de tous les membres de l'équipe.*
 
 En reprenant les instructions de la [partie 2](tutoriel1.md) :
 
@@ -156,7 +156,7 @@ En reprenant les instructions de la [partie 2](tutoriel1.md) :
 - Ajoutez une petite description (en anglais ou en français).
 - Rendez votre dépôt privé en cochant la case *Private*.
 
-Voir un exemple [ici](img/github_lucky_leucine_1.png).
+Voir un exemple [ici](img/github_lucky-leucine_1.png).
 
 Cliquez ensuite le bouton gris *SSH* et copiez / coller quelque part l'adresse du dépôt. Dans mon cas :
 
