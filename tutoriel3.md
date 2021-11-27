@@ -275,6 +275,8 @@ Cette méthodologie ne prévient par les conflits mais permet de discuter des mo
 
 Pour la suite de ce cours :
 
-- Utilisez git et GitHub pour détailler l’évolution de votre projet.
+- Utilisez git et GitHub pour votre projet.
+- Dans le dépôt de votre projet, vous y détaillerez son évolution et y stockerez les différent scripts d'analyse.
 - Créez un fichier « journal de bord » pour renseigner l’avancée de votre projet. Par exemple : *labbook.md*, *project.md*, *journal.md*... Ce journal de bord est à rédiger collaborativement et régulièrement au fur et à mesure de l’avancée de vos analyses.
+- Votre capacité à utiliser git et GitHub sera prise en compte dans l'évaluation de votre projet.
 
