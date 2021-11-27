@@ -20,8 +20,9 @@ $ cd $HOME/meg_m1_gb_r/meg-test
 - Ne tapez pas le caractère `$` en début de ligne et faites attention aux majuscules et aux minuscules.
 - Copiez / collez les commandes pour aller plus vite et faire moins d'erreur. Ne copiez / collez pas non plus n'importe quoi, lisez les consignes avec attention avec d'exécuter une commande.
 
-Vérifiez que votre dépôt est « propre », c'est-à-dire sans fichier modifié non commité.
-```
+Vérifiez que votre dépôt est « propre », c'est-à-dire qu'il ne contient pas de fichier modifié non commité.
+
+```bash
 $ git status
 On branch master
 Your branch is up to date with 'origin/master'.
@@ -99,7 +100,9 @@ $ git checkout master
 $ ls
 ```
 
-Fusionnez maintenant sur *master* la branche *nouveau-fichier* :
+Les branches fonctionnent comme des sortes de « réalités parallèles ». Il est donc normal que le fichier que vous avez créé dans la branche *nouveau-fichier* n'apparaisse pas dans la branche *master*.
+
+Fusionnez maintenant sur la branche actuelle (*master*) la branche *nouveau-fichier* :
 
 ```bash
 $ git merge nouveau-fichier
@@ -112,7 +115,8 @@ $ ls
 $ cat test2.txt
 ```
 
-Supprimez l'ancienne branche *nouveau-fichier* :
+La branche *nouveau-fichier* ne sert plus à rien car les modifications qu'elle contenait ont été fusionnées dans la branche *master*.
+Vous pouvez donc supprimer la branche *nouveau-fichier* :
 
 ```bash
 $ git branch -d nouveau-fichier
