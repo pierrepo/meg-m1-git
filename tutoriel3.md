@@ -250,7 +250,7 @@ Concrètement, si les co-équipiers 1 et 2 travaillent en même temps sur le mê
 
 ## 5.5 GitHub flow
 
-Avec la méthode de travail précédente, tous les co-équipiers travaillent dans la même branche. Chacun modifie les fichiers qu'il veut sans que les autres soient nécessairement d'accord.
+Avec la méthode de travail précédente, tous les co-équipiers travaillent dans la même branche (*master*). Chacun modifie les fichiers qu'il veut sans que les autres soient nécessairement d'accord.
 
 Il existe une méthodologie plus sophistiquée et plus inclusive appelée [*GitHub flow*](https://docs.github.com/en/get-started/quickstart/github-flow) qui permet de discuter des différentes modifications apportées.
 
@@ -264,5 +264,5 @@ Il existe une méthodologie plus sophistiquée et plus inclusive appelée [*GitH
 
 ![](img/github-flow.png)
 
-Cette méthodologie ne prévient par les conflits mais permet de discuter les modifications proposées. Utilisez-la pour des modifications importantes.
+Cette méthodologie ne prévient par les conflits mais permet de discuter des modifications proposées. Utilisez-la pour des modifications importantes.
 
