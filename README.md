@@ -2,7 +2,9 @@
 
 ### Tutoriels
 
-[Tutoriel](tutoriel.md) de découverte de git et GiHub.
+- [Parties 1 et 2](tutoriel1.md) : découverte de git et GiHub.
+- [Partie 3](tutoriel2.md) : exploration d'un projet existant.
+- [Partie 4](tutoriel2.md) : 
 
 
 ### Pour aller plus loin

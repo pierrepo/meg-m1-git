@@ -1,5 +1,5 @@
 ---
-title: Tutoriel Git / GitHub
+title: Tutoriel Git / GitHub (1 + 2)
 author: Pierre Poulain
 license: Creative Commons Attribution-ShareAlike (CC BY-SA 4.0)
 ---
