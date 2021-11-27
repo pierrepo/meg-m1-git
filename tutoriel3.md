@@ -142,7 +142,7 @@ Vérifiez que le dépôt sur GitHub a bien été mis à jour.
 
 **Pour cette partie, vous devez travailler par équipe. Rapprochez-vous des autres membres de votre équipe.**
 
-Si ce n'est pas déà fait, visionnez :
+Si ce n'est pas déjà fait, visionnez :
 
 - La vidéo « [Débuter avec Git et Github en 30 min](https://youtu.be/hPfgekYUKgk?t=1058) » à partir de 17'38 sur le dépôt distant et GitHub.
 - La vidéo « [Démystifions Git, Github, Gitlab (2/3) : Travailler à plusieurs](https://www.youtube.com/watch?v=4xsd8jHyVpk) ».
@@ -173,7 +173,7 @@ Entrez votre mot de passe si GitHub vous le demande.
 Cliquez sur le bouton vert *Add people*.
 
 Entrez un par un le login GitHub (sans le caractère @) des autres membres de l'équipe.
-Cliquez sur le bouton *Add XXXX to this reposotory* à chaque fois (voir [exemple](img/github_lucky-leucine_2.png)).
+Cliquez sur le bouton *Add XXXX to this repository* à chaque fois (voir [exemple](img/github_lucky-leucine_2.png)).
 
 Ajoutez également comme collaborateur les enseignants de cette UE :
 
@@ -223,16 +223,16 @@ Ici, `pierrepo` est mon nom d'utilisateur sur GitHub et `lucky-leucine` est le n
 
 ## 5.3 Premières modifications
 
-Réalisez maintenant ces actions dans l'ordre :
+Réalisez maintenant ces actions dans l'ordre en vous répartissant les différentes rôles :
 
 1. Le 1er membre de l'équipe crée un fichier `README.md` avec simplement le titre du projet. Il ajoute (`git add`), enregistre (`git commit`) puis envoie ses modifications sur GitHub (`git push`).
-1. Contrôlez que les modifications sont bien sur GitHub.
+1. Vérifiez que les modifications sont bien sur GitHub.
 1. Les autres membres de l'équipe récupèrent les modifications sur leur machine locale (`git pull`).
 1. Le 2e membre de l'équipe modifie le fichier `README.md`. Il ajoute (`git add`), enregistre (`git commit`) puis envoie ses modifications sur GitHub (`git push`).
-1. Contrôlez que les modifications sont bien sur GitHub.
-1. Les autres membres de l'équipe récupèrent les modifications sur leur mchine locale (`git pull`).
+1. Vérifiez que les modifications sont bien sur GitHub.
+1. Les autres membres de l'équipe récupèrent les modifications sur leur machine locale (`git pull`).
 1. Le 3e membre de l'équipe modifie le fichier `README.md`. Il ajoute (`git add`), enregistre (`git commit`) puis envoie ses modifications sur GitHub (`git push`).
-1. Contrôlez que les modifications sont bien sur GitHub.
+1. Vérifiez  que les modifications sont bien sur GitHub.
 1. Les autres membres de l'équipe récupèrent les modifications sur leur machine locale (`git pull`).
 
 Une règle pratique qu'il est indispensable de respecter quand on travaille à plusieurs sur un même dépôt est de toujours récupérer les modifications distantes (sur GitHub) localement. C'est à dire qu'il faut toujours lancer la commande `git pull` avant de modifier localement les fichiers **et** avant d'envoyer les modifications sur GitHub.
@@ -245,7 +245,7 @@ Habituellement, vous ne travaillez pas en alternance et il est possible que deux
 Concrètement, si les co-équipiers 1 et 2 travaillent en même temps sur le même fichier, voici ce qui peut arriver :
 
 1. Co-équipiers 1 et 2 font un `git pull` avant de travailler localement.
-1. Co-équipiers 1 et 2 travaille sur le même fichier, mais chacun sur sa machine.
+1. Co-équipiers 1 et 2 travaillent sur le même fichier, mais chacun sur sa machine.
 1. Co-équipier 1 a terminé. Il ajoute et enregistre ses modifications. Il lance un `git pull` puis un `git push`.
 1. Co-équipier 2 a terminé à son tour. Il ajoute et enregistre ses modifications. Il lance un `git pull` et obtient un message d'erreur lui indiquant un conflit. Le même fichier ayant été modifié, GitHub ne sait pas comment faire pour prendre en compte toutes les modifications.
 1. Co-équipier 2 ouvre le fichier et choisit quelles modifications conserver, puis élimine les lignes débutant par `<<<<<<<`, `=======` et `>>>>>>>` (voir [procédure](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)). Il ajoute et enregistre ses modifications. Il lance enfin un `git pull` puis un `git push`.
@@ -267,7 +267,7 @@ Il existe une méthodologie plus sophistiquée et plus inclusive appelée [*GitH
 
 ![](img/github-flow.png)
 
-Cette méthodologie ne prévient par les conflits mais permet de discuter des modifications proposées. Utilisez-la pour des modifications importantes.
+Cette méthodologie ne prévient par les conflits mais permet de discuter des modifications proposées. Utilisez-la lorsque vous implémentez des modifications importantes.
 
 
 
