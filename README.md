@@ -12,12 +12,13 @@
 Pour aller plus loin, vous pouvez :
 
 1. Visionner l'introduction très pédagogique de Sébastien Saunier : [Débuter avec Git et Github](https://www.youtube.com/watch?v=V6Zo68uQPqE) (1h27)
-
 1. Explorer la page dédiée à [Git et GitHub](http://cupnet.net/git-github/) de votre humble serviteur.
-
 1. Tester le tutoriel [*Version Control with Git*](https://swcarpentry.github.io/git-novice/) de Software Carpentry.
 
 
+### Remarque
+
+Tout le matériel de ce cours est écrit en Markdown et hébergé sur [GitHub](https://github.com/pierrepo/meg-m1-git).
 
 ### Licence
 
