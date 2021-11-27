@@ -269,3 +269,12 @@ Il existe une méthodologie plus sophistiquée et plus inclusive appelée [*GitH
 
 Cette méthodologie ne prévient par les conflits mais permet de discuter des modifications proposées. Utilisez-la pour des modifications importantes.
 
+
+
+# Conclusion
+
+Pour la suite de ce cours :
+
+- Utilisez git et GitHub pour détailler l’évolution de votre projet.
+- Créez un fichier « journal de bord » pour renseigner l’avancée de votre projet. Par exemple : `labbook.md`, `project.md`, `journal.md`... Ce journal de bord est à rédiger collaborativement et régulièrement au fur et à mesure de l’avancée de vos analyses.
+
