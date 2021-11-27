@@ -138,7 +138,7 @@ $ git push
 Vérifiez que le dépôt sur GitHub a bien été mis à jour.
 
 
-# Partie 6 : Collaboration avec GitHub
+# Partie 5 : Collaboration avec GitHub
 
 **Pour cette partie, vous devez travailler par équipe. Rapprochez-vous des autres membres de votre équipe.**
 
@@ -146,7 +146,7 @@ Revisionez la vidéo « [Débuter avec Git et Github en 30 min](https://youtu.be
 
 GitHub est très utile pour du travail collaboratif car il va servir de plateforme pour centraliser et organiser un projet.
 
-## 6.1 Création d'un dépôt commun
+## 5.1 Création d'un dépôt commun
 
 *Les manipulations indiquées dans cette rubrique ne sont à réaliser que par **UN SEUL** membre de l'équipe mais avec l'assitance et l'aide de tous les membres de l'équipe.*
 
@@ -179,10 +179,10 @@ Ajoutez également comme collaborateur les enseignants de cette UE :
 - yvesclement
 - pierrepo
 
-Toutes les personnes que vous avez ajouté de cette manière recevront une invitation par e-mail qu'ils devront confirmer.
+Toutes les personnes que vous avez ajoutées de cette manière recevront une invitation par e-mail qu'ils devront confirmer.
 Elles auront ensuite accès en lecture et écriture à ce dépôt sur GitHub.
 
-## 6.2 Connexion du dépôt distant à votre machine locale 
+## 5.2 Connexion du dépôt distant à votre machine locale 
 
 *Les manipulations indiquées dans cette rubrique sont à réaliser par tous les membres de l'équipe.*
 
@@ -218,7 +218,7 @@ git clone git@github.com:pierrepo/lucky-leucine.git
 Ici, `pierrepo` est mon nom d'utilisateur sur GitHub et `lucky-leucine` est le nom du dépôt.
 
 
-## 6.3 Premières modifications
+## 5.3 Premières modifications
 
 Réalisez maintenant ces actions dans l'ordre :
 
@@ -236,7 +236,7 @@ Une règle pratique qu'il est indispensable de respecter quand on travaille à p
 
 Donc normalement, si vous avez respectecté la séquence d'actions ci-dessus, tout s'est bien passé.
 
-## 6.4 Conflits
+## 5.4 Gestion de conflits
 
 Habituellement, vous ne travaillez pas en alternance et il est possible que deux personnes modifient le même fichier presque au même moment.
 Concrètement, si les co-équipiers 1 et 2 travaillent en même temps sur le même fichier, voici ce qui peut arriver :
@@ -248,7 +248,7 @@ Concrètement, si les co-équipiers 1 et 2 travaillent en même temps sur le mê
 1. Co-équipier 2 ouvre le fichier et choisit quelles modifications conserver, puis élimine les lignes débutant par `<<<<<<<`, `=======` et `>>>>>>>` (voir [procédure](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)). Il ajoute et enregistre ses modifications. Il lance enfin un `git pull` puis un `git push`.
 
 
-## 6.5 GitHub flow
+## 5.5 GitHub flow
 
 Avec la méthode de travail précédente, tous les co-équipiers travaillent dans la même branche. Chacun modifie les fichiers qu'il veut sans que les autres soient nécessairement d'accord.
 
