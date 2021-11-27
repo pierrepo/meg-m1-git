@@ -4,7 +4,7 @@
 
 - [Parties 1 et 2](tutoriel1.md) : découverte de git et GiHub.
 - [Partie 3](tutoriel2.md) : exploration d'un projet existant.
-- [Partie 4](tutoriel2.md) : 
+- [Partie 4](tutoriel2.md) : branches et collaboration.
 
 
 ### Pour aller plus loin

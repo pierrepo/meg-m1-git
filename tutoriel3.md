@@ -10,14 +10,23 @@ license: Creative Commons Attribution-ShareAlike (CC BY-SA 4.0)
 
 Revisionez la vidéo « [Débuter avec Git et Github en 30 min](https://youtu.be/hPfgekYUKgk?t=634) » à partir de 10'34 sur les branches.
 
-Depuis votre terminal sur adenine, revenez dans le répertoire `meg-test` :
+Depuis un terminal sur adenine, revenez dans le répertoire `meg-test` :
 ```bash
 $ cd $HOME/meg_m1_gb_r/meg-test
 ```
 
-Vérifiez que votre dépôt est « propre », c'est-à-dire sans fichier modifié mais non commité.
+🔔 Rappels :
+
+- Ne tapez pas le caractère `$` en début de ligne et faites attention aux majuscules et aux minuscules.
+- Copiez / collez les commandes pour aller plus vite et faire moins d'erreur. Ne copiez / collez pas non plus n'importe quoi, lisez les consignes avec attention avec d'exécuter une commande.
+
+Vérifiez que votre dépôt est « propre », c'est-à-dire sans fichier modifié non commité.
 ```
 $ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
 ```
 
 Créez une nouvelle branche, par exemple *nouveau-fichier* :

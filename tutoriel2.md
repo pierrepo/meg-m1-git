@@ -12,10 +12,15 @@ J'ai développé il y a quelques années le logiciel [autoclasswrapper](https://
 
 Vous allez télécharger l'intégralité du dépôt git de ce projet, explorer son historique et observer comment j'ai développé ce programme. Vous aurez la possibilité de modifier localement (sur adenine) ce projet mais vous ne pourrez pas envoyer vos modifications sur le dépôt initial (avec la commande `git push`) car vous n'en avez pas les droits.
 
-Depuis votre terminal sur adenine, déplacez-vous dans le répertoire de base de votre environnement `meg_m1_gb_r` :
+Depuis un terminal sur adenine, déplacez-vous dans le répertoire de base de votre environnement `meg_m1_gb_r` :
 ```bash
 $ cd $HOME/meg_m1_gb_r
 ```
+
+🔔 Rappels :
+
+- Ne tapez pas le caractère `$` en début de ligne et faites attention aux majuscules et aux minuscules.
+- Copiez / collez les commandes pour aller plus vite et faire moins d'erreur. Ne copiez / collez pas non plus n'importe quoi, lisez les consignes avec attention avec d'exécuter une commande.
 
 Vérifiez avec la commande `pwd` que vous obtenez quelque chose du type :
 ```
