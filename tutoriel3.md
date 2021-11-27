@@ -142,9 +142,12 @@ Vérifiez que le dépôt sur GitHub a bien été mis à jour.
 
 **Pour cette partie, vous devez travailler par équipe. Rapprochez-vous des autres membres de votre équipe.**
 
-Revisionez la vidéo « [Débuter avec Git et Github en 30 min](https://youtu.be/hPfgekYUKgk?t=1058) » à partir de 17'38 sur le dépôt distant et GitHub.
+Si ce n'est pas déà fait, visionnez :
 
-GitHub est très utile pour du travail collaboratif car il va servir de plateforme pour centraliser et organiser un projet.
+- La vidéo « [Débuter avec Git et Github en 30 min](https://youtu.be/hPfgekYUKgk?t=1058) » à partir de 17'38 sur le dépôt distant et GitHub.
+- La vidéo « [Démystifions Git, Github, Gitlab (2/3) : Travailler à plusieurs](https://www.youtube.com/watch?v=4xsd8jHyVpk) ».
+
+GitHub est très utile pour du travail collaboratif car il va servir de plateforme centralisée pour organiser un projet.
 
 ## 5.1 Création d'un dépôt commun
 
