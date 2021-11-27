@@ -248,11 +248,11 @@ Concrètement, si les co-équipiers 1 et 2 travaillent en même temps sur le mê
 1. Co-équipier 2 ouvre le fichier et choisit quelles modifications conserver, puis élimine les lignes débutant par `<<<<<<<`, `=======` et `>>>>>>>` (voir [procédure](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)). Il ajoute et enregistre ses modifications. Il lance enfin un `git pull` puis un `git push`.
 
 
-## 6.5 Git flow
+## 6.5 GitHub flow
 
 Avec la méthode de travail précédente, tous les co-équipiers travaillent dans la même branche. Chacun modifie les fichiers qu'il veut sans que les autres soient nécessairement d'accord.
 
-Il existe une méthodologie plus sophistiquée appelée *git flow* qui permet de discuter les différentes modifications apportées.
+Il existe une méthodologie plus sophistiquée appelée [*GitHub flow*](https://docs.github.com/en/get-started/quickstart/github-flow) qui permet de discuter les différentes modifications apportées.
 
 À partir d'un unique dépôt GitHub, accessible à tous les participans du projets, ceux-ci vont :
 
