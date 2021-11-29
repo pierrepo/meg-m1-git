@@ -215,10 +215,15 @@ $ git clone git@github...
 
 Pour mon dépôt, la commande complète est :
 ```bash
-git clone git@github.com:pierrepo/lucky-leucine.git
+$ git clone git@github.com:pierrepo/lucky-leucine.git
 ```
 
 Ici, `pierrepo` est mon nom d'utilisateur sur GitHub et `lucky-leucine` est le nom du dépôt.
+
+Déplacez-vous ensuite dans le répertoire créé. Dans mon cas :
+```bash
+$ cd lucky-leucine
+```
 
 
 ## 5.3 Premières modifications
