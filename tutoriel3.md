@@ -270,7 +270,8 @@ Il existe une méthodologie plus sophistiquée et plus inclusive appelée [*GitH
 - Apporter des modifications dans cette branche (ajout, suppression ou modification de fichiers) par des *commits* successifs.
 - Proposer un *pull request*.
 - Discuter de ce *pull request* et apporter d'éventuelles modifications supplémentaires. (voir un [exemple de discussion](https://github.com/patrickfuchs/buildH/pull/120))
-- Finalement, accepter ce *pull request* en fusionnant puis supprimant la branche.
+- Accepter ce *pull request* en fusionnant puis supprimant la branche sur GitHub.
+- Enfin, localement, récupérer les modifications depuis GitHub avec `git pull` et supprimer la branche fusionnée.
 
 ![](img/github-flow.png)
 
