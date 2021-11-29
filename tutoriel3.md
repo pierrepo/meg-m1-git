@@ -185,6 +185,8 @@ Ajoutez également comme collaborateur les enseignants de cette UE :
 Toutes les personnes que vous avez ajoutées de cette manière recevront une invitation par e-mail qu'ils devront confirmer.
 Elles auront ensuite accès en lecture et écriture à ce dépôt sur GitHub.
 
+🔔 Attention : ne créez pas un premier fichier directement dans l'interface web de GitHub. Cela posera des problèmes pour la suite.
+
 ## 5.2 Connexion du dépôt distant à votre machine locale 
 
 *Les manipulations indiquées dans cette rubrique sont à réaliser par tous les membres de l'équipe.*
