@@ -91,9 +91,31 @@ $ git add test2.txt
 $ git commit -m "Ajout d'une dernière ligne"
 ```
 
+Vous pouvez enfin envoyer votre branche sur GitHub. En utilisant la commande :
+
+```bash
+$ git push
+```
+
+Git va vous renvoyer un message d'erreur :
+```
+fatal: La branche courante nouveau-fichier n'a pas de branche amont.
+```
+et vous proposer une instruction plus complète du type :
+
+```bash
+$ git push --set-upstream origin nouveau-fichier
+```
+
+Utilisez cette instruction pour envoyer votre branche sur GitHub.
+
+Verifiez que votre branche `nouveau-fichier` est bien présente sur GitHub en cliquant sur `branches` dans le menu au dessus de l'aperçu du dépôt :
+
+![](img/github_branche.png)
+
 ## 4.2 Fusion
 
-Revenez sur la branche *master* et vérifiez que le fichier `test2.txt` n'est **pas** présent dans votre répertoire :
+Depuis votre terminal sur adenine, revenez sur la branche *master* et vérifiez que le fichier `test2.txt` n'est **pas** présent dans votre répertoire :
 
 ```bash
 $ git checkout master
@@ -135,7 +157,7 @@ Enfin, envoyez toutes vos modifications sur GitHub :
 $ git push
 ```
 
-Vérifiez que le dépôt sur GitHub a bien été mis à jour.
+Vérifiez que le dépôt sur GitHub a bien été mis à jour. En cliquant sur `branches` sur GitHub, supprimez également la branche `nouveau-fichier`.
 
 
 # Partie 5 : Collaboration avec GitHub
