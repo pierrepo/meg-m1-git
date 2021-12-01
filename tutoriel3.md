@@ -310,7 +310,7 @@ Pour la suite de ce cours :
 - Créez un fichier « journal de bord » pour renseigner l’avancée de votre projet. Par exemple : *labbook.md*, *project.md*, *journal.md*... Ce journal de bord est à rédiger collaborativement et régulièrement au fur et à mesure de l’avancée de vos analyses.
 - Votre capacité à utiliser git et GitHub sera prise en compte dans l'évaluation de votre projet.
 
-Si un jour vous êtes perdus dans vos différents commits et branches, la solution la plus simple est alors de supprimer le répertoire qui votre projet puis de le re-cloner depuis GitHub. Vous perdrez alors votre travail en cours mais vous partirez d'une dépôt local « propre »...
+Si un jour vous êtes perdus dans vos différents commits et branches, la solution la plus simple est alors de supprimer le répertoire qui contient votre projet puis de le re-cloner depuis GitHub. Vous perdrez alors votre travail en cours mais vous re-partirez d'une dépôt local « propre »...
 
 ![](https://imgs.xkcd.com/comics/git.png)
 
