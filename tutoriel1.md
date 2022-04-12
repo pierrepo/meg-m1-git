@@ -25,19 +25,19 @@ $ rm -rf .git
 🔔 Rappels :
 
 - Ne tapez pas le caractère `$` en début de ligne et faites attention aux majuscules et aux minuscules.
-- Copiez / collez les commandes pour aller plus vite et faire moins d'erreur. Ne copiez / collez pas non plus n'importe quoi, lisez les consignes avec attention avec d'exécuter une commande.
+- Copiez / collez les commandes pour aller plus vite et faire moins d'erreur. Ne copiez / collez pas non plus n'importe quoi, lisez les consignes avec attention **avant** d'exécuter une commande.
 
 ## 1.2 Création des clés
 
 Toujours depuis le terminal, entrez la commande suivante :
 
 ```bash
-$ ssh-keygen -t rsa -b 4096 -C "connexion github adenine"
+$ ssh-keygen -t rsa -b 4096 -N "" -C "Connexion GitHub adenine"
 ```
 
-Validez en appuyant **4** fois sur la touche <kbd>Entrée</kbd>.
+Validez en appuyant sur la touche <kbd>Entrée</kbd>.
 
-À la fin, vous devriez obtenir quelque chose du type :
+Vous devriez obtenir quelque chose du type :
 ```
 The key's randomart image is:
 +---[RSA 4096]----+
@@ -73,15 +73,15 @@ Vous devriez obtenir une clé qui ressemble à cela :
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCjNrLoIXHG3NHp2eucFnOqicMz2b4I6FvjxVYMEwzO40syopxd
 7YtQXzWp9EpuO7n9wWZnZ5uR6bXPqXp9VdN3MviI8PsvvjDbp4AfNz4Onunpy0mIjUarRL5evEPKI2iuqO7pUC9m
 qV2tAPopsjfSuj+gBEcMAZU8gMK1o/eBqD+tpuGrNiE1Zq8PDQPOO7HStG09tZ3ABDPBSISun7GAC3ytbYJtL4A3
-IEgUX1oCGbrzVGhIB0pK/xKVVpmG6KplVOjsSgYCivfOIJ05GJQk0LuizGWg1rKt4yYZgXjoMW4F+hz/+c9xnDuR
+IEgUX1oCGbrzVGhIB0pK/xKVVpmG6KplAAAsSgYCivfOIJ05GJQk0LuizGWg1rKt4yYZgXjoMW4F+hz/+c9xnDuR
 q8ZAQLBAm+NWU91Nczb5OzAfWYVY9BlES35YfcFRLuWP8ArXLHRtZJq48B7wIN39im72iYcKXcOzeyYRZQFKMb0z
-9PuDrpZ6LpQZQw04i7CWJZca7Auwtd3yyC+PfuvyeuFhODqktP0rdKtTEQdrUTdaxb+K1k8FPmZMc/o91sBJ1u6d
+9PuDrpZ6LpQZQw04i7CWJZ5a7Auwtd3yyC+PfuvyeuFhODqktP0rdKtTEQdrUTdaxb+K1k8FPmZMc/o91sBJ1u6d
 ceccjpO1LTK/I1w9xmbQAxi0hLDCRN9hm/RUkOvzxZJed6kBzozvZ8vCi+Afv1BXjkv+jrezkkqsFl5YA01nLxyU
 zo1LFBNZ41+wRHQXCQKENzsHnuVwZ0CcXRfFoZnDCn9Hs0L7kBH02O2JPbFlIVw/72XaZundqjczcp1w0gou0+Uq
-TRTPvbaUnz17wffw== connexion github adenine
+TRTPvbaUnz17wffw== Connexion GitHub adenine
 ```
 
-Copiez cette clé, depuis `ssh-rsa` jusqu'à `connexion github adenine` inclus.
+Copiez cette clé, depuis `ssh-rsa` jusqu'à `Connexion GitHub adenine` inclus.
 
 
 ## 1.3 Ajout de la clé publique dans GitHub
@@ -94,7 +94,7 @@ Cliquez sur le bouton vert « *New SSH key* ».
 
 Indiquez comme titre « Connexion adenine » (sans les guillemets).
 
-Collez votre clé dans le champ *Key* (tout depuis `ssh-rsa` jusqu'à `connexion github adenine` inclus).
+Collez votre clé dans le champ *Key* (tout depuis `ssh-rsa` jusqu'à `Connexion GitHub adenine` inclus).
 
 Enfin, cliquez sur le bouton vert « *Add SSH key* ». Pour confirmer l'ajout de cette clé, GitHub vous demandera votre mot de passe utilisateur.
 
