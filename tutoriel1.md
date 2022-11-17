@@ -12,7 +12,7 @@ Depuis l'été 2021, GitHub interdit l'authentification par login / mot-de-passe
 
 ## 1.1 Préparation
 
-Sur adenine, lancez l'environnement `meg_m1_gb_r` que vous avez utilisé lors de la première séance.
+Sur adenine, lancez l'environnement `meg_m1_geno_bioinfo` que vous avez utilisé lors de la première séance.
 
 Depuis le *Launcher*, lancez un terminal ([voir copie d'écran](img/jupyterlab_launcher_terminal.png))
 

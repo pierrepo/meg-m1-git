@@ -12,13 +12,13 @@ Revisionez la vidéo « [Débuter avec Git et Github en 30 min](https://youtu.be
 
 Depuis un terminal sur adenine, revenez dans le répertoire `meg-test` :
 ```bash
-$ cd $HOME/meg_m1_gb_r/meg-test
+$ cd $HOME/meg_m1_geno_bioinfo/meg-test
 ```
 
 🔔 Rappels :
 
 - Ne tapez pas le caractère `$` en début de ligne et faites attention aux majuscules et aux minuscules.
-- Copiez / collez les commandes pour aller plus vite et faire moins d'erreur. Ne copiez / collez pas non plus n'importe quoi, lisez les consignes avec attention avec d'exécuter une commande.
+- Copiez / collez les commandes pour aller plus vite et faire moins d'erreur. Ne copiez / collez pas non plus n'importe quoi, lisez les consignes avec attention avant d'exécuter une commande.
 
 Vérifiez que votre dépôt est « propre », c'est-à-dire qu'il ne contient pas de fichier modifié non commité.
 
@@ -197,12 +197,12 @@ Cliquez sur le bouton vert *Add people*.
 Entrez un par un le login GitHub (sans le caractère @) des autres membres de l'équipe.
 Cliquez sur le bouton *Add XXXX to this repository* à chaque fois (voir [exemple](img/github_lucky-leucine_2.png)).
 
-Ajoutez également comme collaborateur les enseignants de cette UE :
+Ajoutez également comme collaborateur les enseignants de cette UE, dont voici les indentifiants GitHub :
 
-- CVandiedonck
-- Scaburet
-- yvesclement
-- pierrepo
+- `CVandiedonck`
+- `Scaburet`
+- `yvesclement`
+- `pierrepo`
 
 Toutes les personnes que vous avez ajoutées de cette manière recevront une invitation par e-mail qu'ils devront confirmer.
 Elles auront ensuite accès en lecture et écriture à ce dépôt sur GitHub.
@@ -213,20 +213,20 @@ Elles auront ensuite accès en lecture et écriture à ce dépôt sur GitHub.
 
 *Les manipulations indiquées dans cette rubrique sont à réaliser par tous les membres de l'équipe.*
 
-Depuis un terminal sur adenine, déplacez-vous dans le répertoire de base de votre environnement `meg_m1_gb_r` :
+Depuis un terminal sur adenine, déplacez-vous dans le répertoire de base de votre environnement `meg_m1_geno_bioinfo` :
 ```bash
-$ cd $HOME/meg_m1_gb_r
+$ cd $HOME/meg_m1_geno_bioinfo
 ```
 
 🔔 Rappels :
 
 - Ne tapez pas le caractère `$` en début de ligne et faites attention aux majuscules et aux minuscules.
-- Copiez / collez les commandes pour aller plus vite et faire moins d'erreur. Ne copiez / collez pas non plus n'importe quoi, lisez les consignes avec attention avec d'exécuter une commande.
+- Copiez / collez les commandes pour aller plus vite et faire moins d'erreur. Ne copiez / collez pas non plus n'importe quoi, lisez les consignes avec attention avant d'exécuter une commande.
 
 Vérifiez avec la commande `pwd` que vous obtenez quelque chose du type :
 ```
 $ pwd
-/srv/home/ppoulain/meg_m1_gb_r
+/srv/home/ppoulain/meg_m1_geno_bioinfo
 ```
 avec `ppoulain` qui est remplacé par votre *login* sur adenine.
 
