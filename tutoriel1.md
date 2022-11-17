@@ -127,8 +127,8 @@ Avec `<login>` l'identifiant de votre compte sur GitHub. 🎉
 
 Dans cette partie, vous allez faire des aller-retours entre 
 
-- GitHub, qu'on appelle le dépôt distant,
-- et adenine qu'on appelle le dépôt local.
+- GitHub, qu'on appelle le « dépôt distant »,
+- et adenine qu'on appelle le « dépôt local ».
 
 ## 2.1 Création d'un nouveau dépôt sur GitHub
 
@@ -293,7 +293,7 @@ $ git add test1.txt
 $ git commit -m "Ajout d'un nouveau message"
 ```
 
-Et envoyez ce nouveau *commit* sur Github :
+Et envoyez ce nouveau *commit* sur GitHub :
 ```bash
 $ git push
 Énumération des objets: 5, fait.
