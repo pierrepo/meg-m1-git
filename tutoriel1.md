@@ -25,14 +25,14 @@ $ rm -rf .git
 🔔 Rappels :
 
 - Ne tapez pas le caractère `$` en début de ligne et faites attention aux majuscules et aux minuscules.
-- Copiez / collez les commandes pour aller plus vite et faire moins d'erreur. Ne copiez / collez pas non plus n'importe quoi, lisez les consignes avec attention **avant** d'exécuter une commande.
+- Copiez / collez les commandes pour aller plus vite et faire moins d'erreur. Ne copiez / collez pas non plus n'importe quoi, lisez les consignes avec attention **avant d'exécuter une commande**.
 
 ## 1.2 Création des clés
 
 Toujours depuis le terminal, entrez la commande suivante :
 
 ```bash
-$ ssh-keygen -t rsa -b 4096 -N "" -C "Connexion GitHub adenine"
+$ ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -N "" -C "Connexion GitHub adenine"
 ```
 
 Validez en appuyant sur la touche <kbd>Entrée</kbd>.
