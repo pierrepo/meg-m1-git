@@ -301,7 +301,7 @@ Cette méthodologie ne prévient par les conflits mais permet de discuter des mo
 
 
 
-# Conclusion
+# Conclusion et méthodologie de travail
 
 Pour la suite de ce cours utilisez git et GitHub pour votre projet avec :
 
