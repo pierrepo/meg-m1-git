@@ -18,7 +18,7 @@ $ cd $HOME/meg_m1_geno_bioinfo/meg-test
 🔔 Rappels :
 
 - Ne tapez pas le caractère `$` en début de ligne et faites attention aux majuscules et aux minuscules.
-- Copiez / collez les commandes pour aller plus vite et faire moins d'erreur. Ne copiez / collez pas non plus n'importe quoi, lisez les consignes avec attention avant d'exécuter une commande.
+- Copiez / collez les commandes pour aller plus vite et faire moins d'erreur. Ne copiez / collez pas non plus n'importe quoi, lisez les consignes avec attention **avant d'exécuter une commande**.
 
 Vérifiez que votre dépôt est « propre », c'est-à-dire qu'il ne contient pas de fichier modifié non commité.
 
@@ -189,10 +189,10 @@ Cliquez ensuite le bouton gris *SSH* et copiez / coller quelque part l'adresse d
 git@github.com:pierrepo/lucky-leucine.git
 ```
 
-Allez ensuite dans la rubrique *Settings* (en haut à droite) puis dans *Manage access* (à gauche). 
+Allez ensuite dans la rubrique *Settings* (en haut à droite) puis dans *Collaborators* (à gauche). 
 Entrez votre mot de passe si GitHub vous le demande.
 
-Cliquez sur le bouton vert *Add people*.
+Dans la rubrique *Manage access* Cliquez sur le bouton vert *Add people*.
 
 Entrez un par un le login GitHub (sans le caractère @) des autres membres de l'équipe.
 Cliquez sur le bouton *Add XXXX to this repository* à chaque fois (voir [exemple](img/github_lucky-leucine_2.png)).
@@ -207,7 +207,7 @@ Ajoutez également comme collaborateur les enseignants de cette UE, dont voici l
 Toutes les personnes que vous avez ajoutées de cette manière recevront une invitation par e-mail qu'ils devront confirmer.
 Elles auront ensuite accès en lecture et écriture à ce dépôt sur GitHub.
 
-🔔 Attention : ne créez pas un premier fichier directement dans l'interface web de GitHub. Cela posera des problèmes pour la suite.
+🔔 Attention : ne créez pas un premier fichier directement dans l'interface web de GitHub. Cela posera des problèmes par la suite.
 
 ## 5.2 Connexion du dépôt distant à votre machine locale 
 
@@ -221,7 +221,7 @@ $ cd $HOME/meg_m1_geno_bioinfo
 🔔 Rappels :
 
 - Ne tapez pas le caractère `$` en début de ligne et faites attention aux majuscules et aux minuscules.
-- Copiez / collez les commandes pour aller plus vite et faire moins d'erreur. Ne copiez / collez pas non plus n'importe quoi, lisez les consignes avec attention avant d'exécuter une commande.
+- Copiez / collez les commandes pour aller plus vite et faire moins d'erreur. Ne copiez / collez pas non plus n'importe quoi, lisez les consignes avec attention **avant d'exécuter une commande**.
 
 Vérifiez avec la commande `pwd` que vous obtenez quelque chose du type :
 ```
@@ -242,7 +242,7 @@ Pour mon dépôt, la commande complète est :
 $ git clone git@github.com:pierrepo/lucky-leucine.git
 ```
 
-Ici, `pierrepo` est mon nom d'utilisateur sur GitHub et `lucky-leucine` est le nom du dépôt.
+Ici, `pierrepo` est mon nom d'utilisateur sur GitHub et `lucky-leucine` est le nom du dépôt. Dans votre cas, vous aurez bien sûr une adresse différente.
 
 Déplacez-vous ensuite dans le répertoire créé. Dans mon cas :
 ```bash
@@ -254,17 +254,17 @@ $ cd lucky-leucine
 
 Réalisez maintenant ces actions dans l'ordre en vous répartissant les différentes rôles :
 
-1. Le 1er membre de l'équipe crée un fichier `README.md` avec simplement le titre du projet. Il ajoute (`git add`), enregistre (`git commit`) puis envoie ses modifications sur GitHub (`git push`).
+1. Un 1er membre de l'équipe crée un fichier `README.md` avec simplement le titre du projet. Il ajoute (`git add`), enregistre (`git commit`) puis envoie ses modifications sur GitHub (`git push`).
 1. Vérifiez que les modifications sont bien sur GitHub.
 1. Les autres membres de l'équipe récupèrent les modifications sur leur machine locale (`git pull`).
-1. Le 2e membre de l'équipe modifie le fichier `README.md`. Il ajoute (`git add`), enregistre (`git commit`) puis envoie ses modifications sur GitHub (`git push`).
+1. Un 2e membre de l'équipe modifie le fichier `README.md`. Il ajoute (`git add`), enregistre (`git commit`) puis envoie ses modifications sur GitHub (`git push`).
 1. Vérifiez que les modifications sont bien sur GitHub.
 1. Les autres membres de l'équipe récupèrent les modifications sur leur machine locale (`git pull`).
-1. Le 3e membre de l'équipe modifie le fichier `README.md`. Il ajoute (`git add`), enregistre (`git commit`) puis envoie ses modifications sur GitHub (`git push`).
-1. Vérifiez  que les modifications sont bien sur GitHub.
+1. Un 3e membre de l'équipe modifie le fichier `README.md`. Il ajoute (`git add`), enregistre (`git commit`) puis envoie ses modifications sur GitHub (`git push`).
+1. Vérifiez que les modifications sont bien sur GitHub.
 1. Les autres membres de l'équipe récupèrent les modifications sur leur machine locale (`git pull`).
 
-Une règle pratique qu'il est indispensable de respecter quand on travaille à plusieurs sur un même dépôt est de toujours récupérer les modifications distantes (sur GitHub) localement. C'est à dire qu'il faut toujours lancer la commande `git pull` avant de modifier localement les fichiers **et** avant d'envoyer les modifications sur GitHub.
+Une règle pratique, qu'il est indispensable de respecter quand on travaille à plusieurs sur un même dépôt, est de toujours récupérer les modifications distantes (sur GitHub) localement. C'est à dire qu'il faut toujours lancer la commande `git pull` avant de modifier localement les fichiers **et** avant d'envoyer les modifications sur GitHub.
 
 Donc normalement, si vous avez respectecté la séquence d'actions ci-dessus, tout s'est bien passé.
 
@@ -290,7 +290,7 @@ Il existe une méthodologie plus sophistiquée et plus inclusive appelée [*GitH
 
 - Créer une branche pour ajouter une fonctionnalité.
 - Apporter des modifications dans cette branche (ajout, suppression ou modification de fichiers) par des *commits* successifs.
-- Proposer un *pull request*.
+- Proposer un *pull request* depuis l'interface GitHub.
 - Discuter de ce *pull request* et apporter d'éventuelles modifications supplémentaires. (voir un [exemple de discussion](https://github.com/patrickfuchs/buildH/pull/120))
 - Accepter ce *pull request* en fusionnant puis supprimant la branche sur GitHub.
 - Enfin, localement, récupérer les modifications depuis GitHub avec `git pull` et supprimer la branche fusionnée.
@@ -303,12 +303,27 @@ Cette méthodologie ne prévient par les conflits mais permet de discuter des mo
 
 # Conclusion
 
-Pour la suite de ce cours :
+Pour la suite de ce cours utilisez git et GitHub pour votre projet avec :
 
-- Utilisez git et GitHub pour votre projet.
-- Dans le dépôt de votre projet, vous y détaillerez son évolution et y stockerez les différents scripts d'analyse.
-- Créez un fichier « journal de bord » pour renseigner l’avancée de votre projet. Par exemple : *labbook.md*, *project.md*, *journal.md*... Ce journal de bord est à rédiger collaborativement et régulièrement au fur et à mesure de l’avancée de vos analyses.
-- Votre capacité à utiliser git et GitHub sera prise en compte dans l'évaluation de votre projet.
+- des *commits* réguliers ;
+- des *commits* avec des messages informatifs ;
+- des *commits* répartis entre les membres de l'équipe.
+
+Votre dépôt git sera organisé de la manière suivante :
+
+- Un fichier `README.md` avec :
+    + un titre,
+    + la liste des membres de l'équipe (nom, prénom, login GitHub)
+    + une section pour le ggplothon
+    + des explications sur le ggplothon
+    + une section pour le projet
+    + des explication sur le projet (un résumé du projet, les données utilisées, les logiciels ou bibliothèques R utilisées)
+    + 1 ou 2 figures avec des résultats intéressants)
+- Un répertoire `ggplothon` pour le ggplothon
+- Un répertoire `project` pour le projet avec à l'intérieur un fichier `labbook.md` qui vous servira de « journal de bord » pour votre projet dans lequel vous reporterez collaborativement et régulièrement de l’avancée de vos analyses (date, description).
+- Un fichier LICENSE contenant une licence open-source valide.
+
+Votre capacité à utiliser git et GitHub sera prise en compte dans l'évaluation de votre projet.
 
 Si un jour vous êtes perdus dans vos différents commits et branches, la solution la plus simple est alors de supprimer le répertoire qui contient votre projet puis de le re-cloner depuis GitHub. Vous perdrez alors votre travail en cours mais vous re-partirez d'une dépôt local « propre »...
 

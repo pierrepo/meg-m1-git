@@ -37,7 +37,7 @@ $ ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -N "" -C "Connexion GitHub adenine"
 
 Validez en appuyant sur la touche <kbd>Entrée</kbd>.
 
-Vous devriez obtenir quelque chose du type :
+Une fois les clés créées, vous devriez obtenir quelque chose du type :
 ```
 The key's randomart image is:
 +---[RSA 4096]----+
@@ -127,8 +127,8 @@ Avec `<login>` l'identifiant de votre compte sur GitHub. 🎉
 
 Dans cette partie, vous allez faire des aller-retours entre 
 
-- GitHub, qu'on appelle le « dépôt distant »,
-- et adenine qu'on appelle le « dépôt local ».
+- Le site internet GitHub, qu'on appelle le « dépôt distant »,
+- et le serveur adenine qu'on appelle le « dépôt local ».
 
 ## 2.1 Création d'un nouveau dépôt sur GitHub
 
@@ -162,7 +162,7 @@ Pour l'utilisateur `pierrepo` sur GitHub, la commande complète est :
 git clone git@github.com:pierrepo/meg-test.git
 ```
 
-Bien sûr, il faudra adapter pour votre nom d'utilisateur.
+Bien sûr, il faudra adapter avec votre nom d'utilisateur sur GitHub.
 
 Remarque : git pourra éventuellement se plaindre avec le message « *warning: You appear to have cloned an empty repository.* » C'est tout à fait normal, le dépôt est vide pour le moment, mais vous allez rapidement y ajouter des fichiers.
 
@@ -192,9 +192,16 @@ $ git config --global user.email "moi@mail.com"
 
 Remarque : ces commmandes `git config` ne sont à lancer qu'une seule fois sur votre machine (même si vous avez plusieurs dépôts).
 
+Lancez la commande
+```bash
+$ git config --list
+```
+et vérifiez que les paramètres `user.name` et `user.email` sont corrects.
+
+
 ## 2.4 Exploration des commandes de base
 
-Toujours dans votre dépôt git, créez le fichier `test1.txt` et ajoutez-y du contenu. Vous pouvez faire cela avec l'éditeur de texte de Jupyter Lab ou plus rapidement avec la commande suivante :
+Toujours dans votre dépôt git, créez le fichier `test1.txt` et ajoutez-y du contenu. Vous pouvez faire cela avec l'éditeur de texte de Jupyter Lab (demandez une démo si besoin) ou plus rapidement avec la commande suivante :
 ```bash
 $ echo "une première ligne" > test1.txt
 ```
