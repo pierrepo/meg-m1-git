@@ -313,15 +313,14 @@ Votre dépôt git sera organisé de la manière suivante :
 
 - Un fichier `README.md` avec :
     + un titre,
-    + la liste des membres de l'équipe (nom, prénom, login GitHub)
-    + une section pour le ggplothon
-    + des explications sur le ggplothon
-    + une section pour le projet
-    + des explication sur le projet (un résumé du projet, les données utilisées, les logiciels ou bibliothèques R utilisées)
-    + 1 ou 2 figures avec des résultats intéressants)
-- Un répertoire `ggplothon` pour le ggplothon
+    + la liste des membres de l'équipe (nom, prénom, login GitHub),
+    + une section pour le ggplothon,
+    + des explications sur le ggplothon,
+    + une section pour le projet,
+    + des explication sur le projet (un résumé du projet, les données utilisées, les logiciels ou bibliothèques R utilisées, 1 ou 2 figures avec des résultats intéressants).
+- Un répertoire `ggplothon` pour le ggplothon.
 - Un répertoire `project` pour le projet avec à l'intérieur un fichier `labbook.md` qui vous servira de « journal de bord » pour votre projet dans lequel vous reporterez collaborativement et régulièrement de l’avancée de vos analyses (date, description).
-- Un fichier LICENSE contenant une licence open-source valide.
+- Un fichier LICENSE contenant une [licence open-source](https://choosealicense.com/) valide ([MIT](https://choosealicense.com/licenses/mit/), [BSD-3](https://choosealicense.com/licenses/bsd-3-clause/), [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)...).
 
 Votre capacité à utiliser git et GitHub sera prise en compte dans l'évaluation de votre projet.
 
