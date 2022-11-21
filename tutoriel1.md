@@ -10,7 +10,7 @@ license: Creative Commons Attribution-ShareAlike (CC BY-SA 4.0)
 
 Depuis l'été 2021, GitHub interdit l'authentification par login / mot-de-passe et préconise l'utilisation de clés privée et publique.
 
-## 1.1 Préparation
+## 1.1 Préparation de votre environnement de travail
 
 Sur adenine, lancez l'environnement `meg_m1_geno_bioinfo` que vous avez utilisé lors de la première séance.
 
@@ -26,6 +26,15 @@ $ rm -rf .git
 
 - Ne tapez pas le caractère `$` en début de ligne et faites attention aux majuscules et aux minuscules.
 - Copiez / collez les commandes pour aller plus vite et faire moins d'erreur. Ne copiez / collez pas non plus n'importe quoi, lisez les consignes avec attention **avant d'exécuter une commande**.
+
+⚠️ Vous devez impérativement exécuter la commande précédente et vérifier que le répertoire `.git` n'existe plus dans votre répertoire `~/meg_m1_gene_bioinfo` avec la commande :
+
+```bash
+$ ls -al ~/meg_m1_gene_bioinfo
+```
+
+Si vous ne réalisez pas cette étape, votre environnement plantera plus tard.
+
 
 ## 1.2 Création des clés
 
