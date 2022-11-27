@@ -113,6 +113,7 @@ Verifiez que votre branche `nouveau-fichier` est bien présente sur GitHub en cl
 
 ![](img/github_branche.png)
 
+
 ## 4.2 Fusion
 
 Depuis votre terminal sur adenine, revenez sur la branche *master* et vérifiez que le fichier `test2.txt` n'est **pas** présent dans votre répertoire :
@@ -173,13 +174,14 @@ GitHub est très utile pour du travail collaboratif car il va servir de platefor
 
 ## 5.1 Création d'un dépôt commun
 
-*Les manipulations indiquées dans cette rubrique ne sont à réaliser que par **UN SEUL** membre de l'équipe mais avec l'assitance et l'aide de tous les membres de l'équipe.*
+*Les manipulations indiquées dans cette rubrique ne sont à réaliser que par **UN SEUL** membre de l'équipe mais avec l'assistance et l'aide de tous les membres de l'équipe.*
 
 En reprenant les instructions de la [partie 2](tutoriel1.md) :
 
 - Créez un nouveau dépôt sur GitHub qui porte le nom de votre projet (*lucky-leucine* dans mon exemple).
 - Ajoutez une petite description (en anglais ou en français).
 - Rendez votre dépôt privé en cochant la case *Private*.
+- Conservez tous les autres paramètres par défaut (n'itialisez pas le dépôt avec les fichiers proposés).
 
 Voir un exemple [ici](img/github_lucky-leucine_1.png).
 
@@ -194,17 +196,17 @@ Entrez votre mot de passe si GitHub vous le demande.
 
 Dans la rubrique *Manage access* Cliquez sur le bouton vert *Add people*.
 
-Entrez un par un le login GitHub (sans le caractère @) des autres membres de l'équipe.
+Entrez un par un le login GitHub (sans le caractère @ au début) des autres membres de l'équipe.
 Cliquez sur le bouton *Add XXXX to this repository* à chaque fois (voir [exemple](img/github_lucky-leucine_2.png)).
 
 Ajoutez également comme collaborateur les enseignants de cette UE, dont voici les indentifiants GitHub :
 
-- `CVandiedonck`
-- `Scaburet`
-- `yvesclement`
-- `pierrepo`
+- Claire Vandiedonck : `CVandiedonck`
+- Sandrine Caburet : `Scaburet`
+- Yves Clément : `yvesclement`
+- Pierre Poulain : `pierrepo`
 
-Toutes les personnes que vous avez ajoutées de cette manière recevront une invitation par e-mail qu'ils devront confirmer.
+Toutes les personnes que vous avez ajoutées de cette manière recevront une invitation par e-mail qu'ils devront confirmer rapidement.
 Elles auront ensuite accès en lecture et écriture à ce dépôt sur GitHub.
 
 🔔 Attention : ne créez pas un premier fichier directement dans l'interface web de GitHub. Cela posera des problèmes par la suite.
@@ -252,7 +254,7 @@ $ cd lucky-leucine
 
 ## 5.3 Premières modifications
 
-Réalisez maintenant ces actions dans l'ordre en vous répartissant les différentes rôles :
+Réalisez maintenant ces actions dans l'ordre en vous répartissant les différents rôles :
 
 1. Un 1er membre de l'équipe crée un fichier `README.md` avec simplement le titre du projet. Il ajoute (`git add`), enregistre (`git commit`) puis envoie ses modifications sur GitHub (`git push`).
 1. Vérifiez que les modifications sont bien sur GitHub.
@@ -264,7 +266,7 @@ Réalisez maintenant ces actions dans l'ordre en vous répartissant les différe
 1. Vérifiez que les modifications sont bien sur GitHub.
 1. Les autres membres de l'équipe récupèrent les modifications sur leur machine locale (`git pull`).
 
-Une règle pratique, qu'il est indispensable de respecter quand on travaille à plusieurs sur un même dépôt, est de toujours récupérer les modifications distantes (sur GitHub) localement. C'est à dire qu'il faut toujours lancer la commande `git pull` avant de modifier localement les fichiers **et** avant d'envoyer les modifications sur GitHub.
+Une règle pratique, qu'il est indispensable de respecter quand on travaille à plusieurs sur un même dépôt, est de toujours récupérer les modifications distantes (sur GitHub) localement. C'est à dire qu'il faut toujours lancer la commande `git pull` **avant** de modifier localement les fichiers et **avant** d'envoyer les modifications sur GitHub.
 
 Donc normalement, si vous avez respectecté la séquence d'actions ci-dessus, tout s'est bien passé.
 
@@ -309,7 +311,9 @@ Pour la suite de ce cours utilisez git et GitHub pour votre projet avec :
 - des *commits* avec des messages informatifs ;
 - des *commits* répartis entre les membres de l'équipe.
 
-Votre dépôt git sera organisé de la manière suivante :
+Pour faciliter votre manipulation de git, n'hésitez pas à utiliser l'onglet « Git » dans la barre verticale à gauche dans JupyterLab.
+
+Le dépôt git de votre projet sera organisé de la manière suivante :
 
 - Un fichier `README.md` avec :
     + un titre,
@@ -318,8 +322,8 @@ Votre dépôt git sera organisé de la manière suivante :
     + des explications sur le ggplothon,
     + une section pour le projet,
     + des explication sur le projet (un résumé du projet, les données utilisées, les logiciels ou bibliothèques R utilisées, 1 ou 2 figures avec des résultats intéressants).
-- Un répertoire `ggplothon` pour le ggplothon.
-- Un répertoire `project` pour le projet avec à l'intérieur un fichier `labbook.md` qui vous servira de « journal de bord » pour votre projet dans lequel vous reporterez collaborativement et régulièrement de l’avancée de vos analyses (date, description).
+- Un répertoire `ggplothon` pour le ggplothon. Ce répertoire contiendra les codes et les figures générées.
+- Un répertoire `project` pour le projet avec à l'intérieur un fichier `labbook.md` qui vous servira de « journal de bord » pour votre projet dans lequel vous reporterez collaborativement et régulièrement l’avancée de vos analyses (date, description).
 - Un fichier LICENSE contenant une [licence open-source](https://choosealicense.com/) valide ([MIT](https://choosealicense.com/licenses/mit/), [BSD-3](https://choosealicense.com/licenses/bsd-3-clause/), [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)...).
 
 Votre capacité à utiliser git et GitHub sera prise en compte dans l'évaluation de votre projet.
