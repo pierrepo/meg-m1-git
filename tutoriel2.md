@@ -64,7 +64,7 @@ Vérifiez cette valeur sur le site du dépôt : <https://github.com/pierrepo/aut
 Astuces : 
 
 - Combinez les commandes `git log`, `grep -B4` et un mot-clé pertinent.
-- Pour trouver le bon mot-clé (en anglais), jetez un oeil à la page [dendrogramme](https://en.wikipedia.org/wiki/Dendrogram) sur Wikipédia.
+- Utilisez le mot dendrogramme en Anglais (voir la page [Wikipédia](https://en.wikipedia.org/wiki/Dendrogram)).
 
 
 ### Combien de fichiers ont été modifiés dans le *commit* correspondant ?
