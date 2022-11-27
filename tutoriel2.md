@@ -42,7 +42,8 @@ $ cd autoclasswrapper
 
 Utilisez maintenant différentes commandes git pour explorer le projet 
 et répondre aux questions suivantes.
-### De quand date le dernier *commit* ?
+
+### De quand date le dernier *commit* et quel est son *hash* ?
 
 Astuce : combinez les commandes `git log` et `head`.
 
